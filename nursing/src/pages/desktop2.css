@@ -1,0 +1,100 @@
+.image-2-icon {
+  position: absolute;
+  top: 65px;
+  left: 105px;
+  width: 140px;
+  height: 126px;
+  object-fit: cover;
+}
+.mes-patients {
+  position: absolute;
+  top: 593px;
+  left: 54px;
+}
+.home1,
+.profil-detail-professionnel {
+  position: absolute;
+  top: 427px;
+  left: 54px;
+}
+.home1 {
+  top: 304px;
+}
+.desktop-11-child,
+.image-11 {
+  background-color: transparent;
+  position: absolute;
+  border-radius: var(--br-8xs);
+}
+.desktop-11-child {
+  border: 1px solid var(--color-rosybrown);
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  top: 48px;
+  left: 427px;
+  box-sizing: border-box;
+  width: 456px;
+  height: 55px;
+  padding: var(--padding-base) var(--padding-lgi) var(--padding-mid);
+  color: var(--color-darkgray-100);
+}
+.image-11 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 893px;
+  left: 867px;
+  width: 33px;
+  height: 30px;
+  background-image: url(/public/image1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.patients {
+  position: absolute;
+  top: 196px;
+  left: 540px;
+  display: inline-block;
+  width: 298px;
+  height: 33px;
+}
+.property-1variant2-frame {
+  position: absolute;
+  top: 27px;
+  left: 1254px;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-rosybrown);
+  box-sizing: border-box;
+  width: 133px;
+  height: 42px;
+  overflow: hidden;
+}
+.infirmier {
+  position: absolute;
+  top: 32px;
+  left: 1273px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  color: var(--color-salmon);
+  width: 133px;
+  height: 38px;
+}
+.patiente {
+  position: absolute;
+  top: 83px;
+  left: 1264px;
+}
+.desktop-11 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

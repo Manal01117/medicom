@@ -1,0 +1,245 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes shake-horizontal {
+  0%,
+  to {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+  90% {
+    transform: translateX(-8px);
+  }
+}
+.mon-infirmier-actuel4 {
+  position: absolute;
+  top: 562px;
+  left: 54px;
+}
+.historique-des-infirmiers4 {
+  position: absolute;
+  top: 469px;
+  left: 54px;
+}
+.desktop-3-child,
+.home7,
+.profil4 {
+  position: absolute;
+  top: 283px;
+  left: 54px;
+}
+.desktop-3-child,
+.profil4 {
+  top: 376px;
+}
+.desktop-3-child {
+  border: 1px solid var(--color-rosybrown);
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  top: 48px;
+  left: 427px;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  width: 456px;
+  height: 55px;
+  padding: var(--padding-base) var(--padding-lgi) var(--padding-mid);
+  color: var(--color-darkgray-100);
+}
+.infirmiere5 {
+  position: absolute;
+  top: 93px;
+  left: 1264px;
+}
+.property-1variant2-wrapper6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-rosybrown);
+  box-sizing: border-box;
+  width: 133px;
+  height: 42px;
+  overflow: hidden;
+}
+.patient5 {
+  position: absolute;
+  top: 4px;
+  left: 22px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-salmon);
+  text-align: left;
+  width: 133px;
+  height: 38px;
+}
+.component-set-parent2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 34px;
+  left: 1264px;
+  width: 155px;
+  height: 42px;
+}
+.component-set-parent2:active {
+  background-color: var(--color-darkgray-300);
+}
+.desktop-3-item,
+.details3,
+.offre {
+  position: absolute;
+  top: 166px;
+  left: 427px;
+}
+.details3,
+.offre {
+  top: 153px;
+  left: 55px;
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 81px;
+  height: 33px;
+}
+.offre {
+  top: 35px;
+  left: 43px;
+  font-size: var(--font-size-13xl);
+  width: 86px;
+}
+.instance-parent {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 408px;
+  left: 952px;
+  box-shadow: 0 4px 4px rgba(38, 31, 31, 0.14);
+  box-sizing: border-box;
+  width: 413px;
+  height: 339px;
+  opacity: 1;
+}
+.instance-parent.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.instance-parent:active {
+  animation: 1s ease 0s infinite normal none shake-horizontal;
+  opacity: 1;
+}
+.details4,
+.offre1 {
+  position: absolute;
+  top: 150px;
+  left: 55px;
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 81px;
+  height: 33px;
+}
+.offre1 {
+  top: 33px;
+  left: 50px;
+  font-size: var(--font-size-13xl);
+  width: 86px;
+}
+.instance-group {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 408px;
+  left: 427px;
+  box-shadow: 0 4px 4px rgba(127, 77, 77, 0.25);
+  width: 413px;
+  height: 339px;
+}
+.instance-group.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.instance-group,
+.instance-group:active {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  opacity: 1;
+}
+.instance-group:active {
+  animation: 1s ease 0s infinite normal none shake-horizontal;
+}
+.pxl-20210309-203454756-2-icon4 {
+  position: absolute;
+  top: 90px;
+  left: 134px;
+  border-radius: var(--br-9xs);
+  width: 92px;
+  height: 95px;
+  object-fit: cover;
+}
+.desktop-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+}
+
+/* desktop21.css */
+
+/* Add container for each nurse */
+.nurse-container {
+  margin-top: 20px; /* Adjust margin as needed */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 40px); /* Adjust width as needed */
+  max-width: 600px; /* Adjust max-width as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.details-container {
+  margin-top: 10px;
+}
+
+.details-container-result {
+  margin-top: 250px;
+}
+
+.details {
+  margin-bottom: 5px;
+}
+
+/* Add any additional styling as needed */

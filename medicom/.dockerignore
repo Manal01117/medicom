@@ -1,0 +1,11 @@
+# Ignore node_modules directory (already installed in Docker container)
+node_modules
+
+# Ignore any temporary files
+*.log
+*.tmp
+
+# Ignore development files and directories
+*.test.js
+*.spec.js
+coverage

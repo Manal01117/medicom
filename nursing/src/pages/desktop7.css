@@ -1,0 +1,179 @@
+.infirmiere4 {
+  position: absolute;
+  top: 93px;
+  left: 1264px;
+}
+.property-1variant2-wrapper4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-rosybrown);
+  box-sizing: border-box;
+  width: 133px;
+  height: 42px;
+  overflow: hidden;
+}
+.patient4 {
+  position: absolute;
+  top: 4px;
+  left: 22px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-salmon);
+  text-align: left;
+  width: 133px;
+  height: 38px;
+}
+.component-set-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 34px;
+  left: 1264px;
+  width: 155px;
+  height: 42px;
+}
+.component-set-parent1:active {
+  background-color: var(--color-darkgray-300);
+}
+.pxl-20210309-203454756-1-icon {
+  position: absolute;
+  top: 233px;
+  left: 446px;
+  border-radius: var(--br-9xs);
+  width: 173px;
+  height: 209px;
+  object-fit: cover;
+}
+.name1 {
+  position: absolute;
+  top: 252px;
+  left: 753px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 105px;
+  height: 43px;
+}
+.highlight-11 {
+  position: absolute;
+  top: 310px;
+  left: 720px;
+  border: 10px solid var(--color-lightpink);
+  box-sizing: border-box;
+  width: 172px;
+  height: 10px;
+  opacity: 0.55;
+  mix-blend-mode: multiply;
+}
+.age1 {
+  margin-bottom: 0;
+}
+.age-occupation-location-more-i1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-mid);
+}
+.age-occupation-location-container1 {
+  position: absolute;
+  top: 315px;
+  left: 762px;
+  font-size: var(--font-size-smi);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 107px;
+  height: 133px;
+}
+.connector-line3 {
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 3px solid var(--color-salmon);
+  box-sizing: border-box;
+  width: 691px;
+  height: 3px;
+}
+.bio1,
+.lorem-ipsum-dolor1 {
+  position: absolute;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: inline-block;
+  color: var(--color-black);
+}
+.lorem-ipsum-dolor1 {
+  margin: 0;
+  top: 626px;
+  left: 464px;
+  font-size: var(--font-size-xl);
+  width: 840px;
+  height: 196px;
+}
+.bio1 {
+  top: 549px;
+  left: 449px;
+  font-size: var(--font-size-17xl);
+  width: 463px;
+  height: 128px;
+}
+.desktop-6-child,
+.desktop-6-item {
+  position: absolute;
+  top: 1462px;
+  left: 2301px;
+  width: 0;
+  height: 0;
+}
+.desktop-6-item {
+  top: 2448px;
+  left: 2749px;
+}
+.pxl-20210309-203454756-2-icon3 {
+  position: absolute;
+  top: 90px;
+  left: 134px;
+  border-radius: var(--br-9xs);
+  width: 92px;
+  height: 95px;
+  object-fit: cover;
+}
+.mon-infirmier-actuel3 {
+  position: absolute;
+  top: 562px;
+  left: 54px;
+}
+.historique-des-infirmiers3,
+.home6,
+.profil3 {
+  position: absolute;
+  top: 469px;
+  left: 54px;
+}
+.home6,
+.profil3 {
+  top: 283px;
+}
+.profil3 {
+  top: 376px;
+}
+.desktop-6 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}

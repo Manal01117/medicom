@@ -1,0 +1,78 @@
+.property-1default,
+.property-1variant2 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.property-1variant2 {
+  top: 109px;
+}
+.property-1default-group,
+.property-1variant2-wrapper5 {
+  position: absolute;
+  top: 474px;
+  left: 534px;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-rosybrown);
+  box-sizing: border-box;
+  width: 413px;
+  height: 257px;
+  overflow: hidden;
+}
+.property-1variant2-wrapper5 {
+  top: 58px;
+  left: 70px;
+  width: 133px;
+  height: 42px;
+}
+.Se-connecter1 {
+  top: 180px;
+  left: 140px;
+  
+}
+.nouvel-compte1,
+.patiente3 {
+  position: absolute;
+  top: 858px;
+  left: 620px;
+}
+.patiente3 {
+  top: 117px;
+  left: 90px;
+}
+.infirmier3,
+.medicom1 {
+  position: absolute;
+  top: 329px;
+  left: 643px;
+}
+.infirmier3 {
+  top: 62px;
+  left: 92px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 133px;
+  height: 38px;
+}
+.desktop-2,
+.desktop-21 {
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+}
+.desktop-21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+}
+.desktop-2 {
+  width: 100%;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-salmon);
+  font-family: var(--font-inter);
+}

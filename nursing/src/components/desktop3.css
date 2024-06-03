@@ -1,0 +1,198 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes shake-horizontal {
+  0%,
+  to {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+  90% {
+    transform: translateX(-8px);
+  }
+}
+.property-1variant2-wrapper7 {
+  position: absolute;
+  top: 27px;
+  left: 1254px;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-rosybrown);
+  box-sizing: border-box;
+  width: 133px;
+  height: 42px;
+  overflow: hidden;
+}
+.infirmier4 {
+  position: absolute;
+  top: 32px;
+  left: 1273px;
+  display: inline-block;
+  width: 133px;
+  height: 38px;
+}
+.desktop-4-child {
+  border: 1px solid var(--color-rosybrown);
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: absolute;
+  top: 48px;
+  left: 427px;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  width: 456px;
+  height: 55px;
+  padding: var(--padding-base) var(--padding-lgi) var(--padding-mid);
+  color: var(--color-darkgray-100);
+}
+.desktop-4-item,
+.patiente4 {
+  position: absolute;
+  top: 83px;
+  left: 1264px;
+}
+.desktop-4-item {
+  top: 166px;
+  left: 427px;
+}
+.demande,
+.details5 {
+  position: absolute;
+  top: 153px;
+  left: 55px;
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 81px;
+  height: 33px;
+}
+.demande {
+  top: 35px;
+  left: 43px;
+  font-size: var(--font-size-13xl);
+  width: 175px;
+  height: 31px;
+}
+.instance-container {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 408px;
+  left: 952px;
+  box-sizing: border-box;
+  width: 413px;
+  height: 339px;
+  opacity: 1;
+}
+.instance-container.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.instance-container:active {
+  animation: 1s ease 0s infinite normal none shake-horizontal;
+  opacity: 1;
+}
+.demande1,
+.details6 {
+  position: absolute;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  height: 33px;
+}
+.details6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 150px;
+  left: 55px;
+  font-size: var(--font-size-xl);
+  width: 81px;
+}
+.demande1 {
+  top: 33px;
+  left: 50px;
+  font-size: var(--font-size-13xl);
+  width: 178px;
+}
+.instance-parent1 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 411px;
+  left: 427px;
+  box-sizing: border-box;
+  width: 413px;
+  height: 339px;
+  opacity: 1;
+}
+.instance-parent1.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.instance-parent1:active {
+  display: flex;
+  animation: 1s ease 0s infinite normal none shake-horizontal;
+  opacity: 1;
+}
+.image-2-icon3 {
+  position: absolute;
+  top: 65px;
+  left: 105px;
+  width: 140px;
+  height: 126px;
+  object-fit: cover;
+}
+.mes-patients3 {
+  position: absolute;
+  top: 593px;
+  left: 54px;
+}
+.home8,
+.profil-detail-professionnel3 {
+  position: absolute;
+  top: 427px;
+  left: 54px;
+}
+.home8 {
+  top: 304px;
+}
+.desktop-4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-salmon);
+  font-family: var(--font-inter);
+}

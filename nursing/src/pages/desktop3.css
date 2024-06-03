@@ -1,0 +1,182 @@
+.infirmiere2 {
+  position: absolute;
+  top: 93px;
+  left: 1264px;
+}
+.patient-container {
+  margin-top: 20px; /* Adjust margin as needed */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Adjust max-width as needed */
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--color-black);
+}
+
+.patient2,
+.rectangle-div {
+  position: absolute;
+  width: 133px;
+}
+.rectangle-div {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-rosybrown);
+  box-sizing: border-box;
+  height: 42px;
+  overflow: hidden;
+}
+.patient2 {
+  top: 4px;
+  left: 22px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-salmon);
+  text-align: left;
+  height: 38px;
+}
+.component-set-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 34px;
+  left: 1264px;
+  width: 155px;
+  height: 42px;
+}
+.component-set-container:active {
+  background-color: var(--color-darkgray-300);
+}
+.ide-xxx {
+  position: absolute;
+  top: 310px;
+  left: 654px;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  color: var(--color-black);
+  width: 137px;
+  height: 33px;
+}
+.utilisateur-1-icon {
+  position: absolute;
+  top: 310px;
+  left: 574px;
+  border-radius: 38px;
+  width: 67px;
+  height: 67px;
+  object-fit: cover;
+}
+.contact-le,
+.details {
+  position: absolute;
+  display: inline-block;
+  height: 33px;
+}
+.contact-le {
+  top: 358px;
+  left: 654px;
+  font-weight: 300;
+  width: 208px;
+}
+.details {
+  top: 529px;
+}
+.details,
+.details1,
+.details2 {
+  left: 654px;
+  font-weight: 300;
+  white-space: pre-wrap;
+  width: 208px;
+}
+.details1 {
+  position: absolute;
+  top: 670px;
+  display: inline-block;
+  height: 33px;
+}
+.details2 {
+  top: 594px;
+}
+.details2,
+.div,
+.historique-de-visites {
+  position: absolute;
+  display: inline-block;
+  height: 33px;
+}
+.historique-de-visites {
+  top: 453px;
+  left: 654px;
+  text-decoration: underline;
+  width: 298px;
+}
+.div {
+  top: 404px;
+  left: 687px;
+  font-weight: 300;
+  width: 208px;
+}
+.pxl-20210309-203454756-2-icon1 {
+  position: absolute;
+  top: 90px;
+  left: 134px;
+  border-radius: var(--br-9xs);
+  width: 92px;
+  height: 95px;
+  object-fit: cover;
+}
+.infirmier-actuel {
+  position: absolute;
+  top: 212px;
+  left: 571px;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  color: var(--color-black);
+  width: 269px;
+  height: 26px;
+}
+.image-4-icon {
+  position: absolute;
+  top: 402px;
+  left: 647px;
+  width: 29px;
+  height: 29px;
+  object-fit: cover;
+}
+.mon-infirmier-actuel1 {
+  position: absolute;
+  top: 562px;
+  left: 54px;
+}
+.historique-des-infirmiers1,
+.home2,
+.profil1 {
+  position: absolute;
+  top: 469px;
+  left: 54px;
+}
+.home2,
+.profil1 {
+  top: 283px;
+}
+.profil1 {
+  top: 376px;
+}
+.desktop-10 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-inter);
+}
